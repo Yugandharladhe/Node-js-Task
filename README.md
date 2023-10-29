@@ -6,21 +6,21 @@ To Run REST API's in local Environment use following steps:
 
 # Endpoints of REST API's:
 1) create Book API:
-   [POST]localhost:3000/api/createBook
+   [POST]localhost:3000/api/createBook <br>
    req body:
    {
     "title":"test1",
     "summary":"test2",
     "author":"myself"
    }
-\n
-2) get all books API:
+   <br>
+3) get all books API:
    [GET] localhost:3000/api/getAllBooks
 
-3) get particular book API:
+4) get particular book API:
    [GET] localhost:3000/api/getParticularBook/:id
 
-4) update Book APi:
+5) update Book APi:
    [PUT] localhost:3000/api/updateBook/:id
     req body:
    {
@@ -30,7 +30,7 @@ To Run REST API's in local Environment use following steps:
    }
 //atleast one filed should be specified in update book
 
-5) delete book API:
+6) delete book API:
    [DELETE] localhost:3000.api/deleteBook/:id
    
    
