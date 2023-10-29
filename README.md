@@ -8,6 +8,7 @@ To Run REST API's in local environment use following steps:
 
 1)create book API:
   [POST] localhost:3000/api/createBook
+  
    request body:
   {
     "title":"test test2",
@@ -17,6 +18,7 @@ To Run REST API's in local environment use following steps:
 
 2) update book API:
    [PUT] localhost:3000/api/updateBook/:id
+   
    request body:
   {
     "title":"test test2",//optional
@@ -25,13 +27,13 @@ To Run REST API's in local environment use following steps:
   }
   //atleast one field should be given to update book
 
-3) get all book API:
+4) get all book API:
    [GET] localhost:3000/api/getAllBooks
 
-4) get particular book API:
+6) get particular book API:
    [GET] localhost:3000/api/getParticularBook/:id
 
-5) delete book API:
+7) delete book API:
    [delete] localhost:3000/api/deleteBook/:id 
 
 
