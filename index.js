@@ -8,8 +8,8 @@ app.use(express.urlencoded({extended:true}))
 
 const PORT=process.env.PORT || 3000
 
-
-connectDB(process.env.CONNECTION_STRING)
+const url=process.env.CONNECTION_STRING
+connectDB(url)
 
 app.use("/api",route)
 

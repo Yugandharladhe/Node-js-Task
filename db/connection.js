@@ -1,7 +1,7 @@
 const mongoose=require("mongoose");
 
 const connectDB = async (link) => {
-  const db_url = link ??`mongodb://localhost:27017/task` //! local mongo db
+  const db_url = link || `mongodb://localhost:27017/task` //! local mongo db
   console.log(db_url);
    try {
     const connectionDB = await mongoose.connect(db_url, {
