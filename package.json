@@ -4,7 +4,9 @@
   "description": "api for book CRUD operations",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "echo \"No test specified\"",
+    "devStart": "nodemon index.js"
   },
   "author": "yugandhar ladhe",
   "license": "ISC",
