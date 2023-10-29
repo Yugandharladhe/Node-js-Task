@@ -13,11 +13,12 @@ To Run REST API's in local Environment use following steps:
     "summary":"test2",
     "author":"myself"
    }
-   <br>
-   <br>
-   <br>
    //all field are compulsory
-2) get all books API:<br>
+   <br>
+   <br>
+   <br>
+   
+3) get all books API:<br>
    [GET] localhost:3000/api/getAllBooks
 <br>
 <br>
