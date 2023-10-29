@@ -6,7 +6,7 @@ To Run REST API's in local environment use following steps:
 
 #Endpoints of Api are:
 
-1)create book API:
+1) create book API:
   [POST] localhost:3000/api/createBook
   
    request body:
