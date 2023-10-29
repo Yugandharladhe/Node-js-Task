@@ -21,9 +21,9 @@ To Run REST API's in local environment use following steps:
    
    request body:
   {
-    "title":"test test2",//optional
-    "summary":"summarize all book",//optional
-    "author":"test2"//optional
+    "title":"test test2",
+    "summary":"summarize all book",
+    "author":"test2"
   }
   //atleast one field should be given to update book
 
