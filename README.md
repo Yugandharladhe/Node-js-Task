@@ -14,23 +14,25 @@ To Run REST API's in local Environment use following steps:
     "author":"myself"
    }
    <br>
-3) get all books API:
+3) get all books API:<br>
    [GET] localhost:3000/api/getAllBooks
-
-4) get particular book API:
+<br>
+4) get particular book API:<br>
    [GET] localhost:3000/api/getParticularBook/:id
-
-5) update Book APi:
+<br>
+5) update Book APi:<br>
    [PUT] localhost:3000/api/updateBook/:id
+   <br>
     req body:
    {
     "title":"test1",
     "summary":"test2",
     "author":"myself"
    }
+   <br>
 //atleast one filed should be specified in update book
-
-6) delete book API:
+<br>
+7) delete book API:<br>
    [DELETE] localhost:3000.api/deleteBook/:id
    
    
