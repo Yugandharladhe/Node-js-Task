@@ -44,5 +44,16 @@ To Run REST API's in local Environment use following steps:
    <br>
    5) delete book API:<br>
       [DELETE] localhost:3000.api/deleteBook/:id
-      
+
+# Deployment on Azure Webapp service
+1) name your application(it will be later on your URL of deployed app)
+2) select resource group
+3) select runtime stack(Node 18 LTS)
+4) select OS type (linux)
+5) select region where you have to deploy your app
+6) select linux plan(1GB memory)
+7) In deployment options select how to do deployment(I selected github Actions continuous deployment)
+8) then select access to application(public or private)
+9) And lastly review + create
+10) lastly it will built and deploy our app(and we get our url to access the app)
    
