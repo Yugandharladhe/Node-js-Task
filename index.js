@@ -12,6 +12,9 @@ const url=process.env.CONNECTION_STRING
 connectDB(url)
 
 app.use("/api",route)
+app.use("/",(req,res)=>{
+    res.json({msg:"Welcome to node js appplication by yugandhar"})
+})
 
 
 app.listen(PORT,()=>{
